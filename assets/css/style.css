@@ -1,0 +1,196 @@
+* {
+   box-sizing: border-box;
+}
+
+p {
+   padding: 5px;
+   margin: 10px;
+   line-height: 1.1em;
+}
+
+.top-row {
+   position: relative;
+   background-color: white;
+   height: 110px;
+}
+
+.top-left-box {
+   display: inline-block;
+   position: absolute;
+   background-color: #4aaaa5;
+   height: 90%;
+   width: 20%;
+   left: 10%;
+}
+
+.top-left-box h1 {
+   position: absolute;
+   color: white;
+   text-align: center;
+   top: 40%;
+   left: 10%;
+   font-size: x-large;
+}
+
+
+
+.top-right-box {
+   display: inline-block;
+   position: absolute;
+   background-color: white;
+   height: 100%;
+   width: 45%;
+   right: 10%;
+   top: 40%;
+}
+
+.top-right-box a {
+   margin-right: 2%;
+   margin-top: 5%;
+}
+
+.middle-row {
+   position: relative;
+   background-color: #d0d0d0;
+   height: 750px;
+}
+
+.middle-left-box {
+   display: inline-block;
+   position: absolute;
+   background-color: white;
+   width: 45%;
+   left: 10%;
+   top: 2%;
+}
+
+.middle-right-box {
+   display: inline-block;
+   position: absolute;
+   background-color: white;
+   height: 150px;
+   width: 27%;
+   right: 15%;
+   top: 2%;
+}
+
+/* For Portfolio */
+
+figure {
+    display: inline-block;
+}
+
+.Portfolio_Caption {
+    position: absolute;
+    height: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+#Tower_Caption{
+	width: 200px;
+	top: 160px;
+}
+
+#Wall_Caption{
+	width: 226px;
+	top: 160px;
+}
+
+#Liberty_Caption{
+
+	width:112px;
+	top:315px;
+}
+
+#Shuttle_Caption{
+	width:122px;
+	top:315px;
+}
+
+
+/* For Contact */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#msg{
+    height:300px;
+}
+
+#message{
+    height:300px;
+    width:100%;
+}
+}
+
+input[type=submit] {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+   .middle-right-box {
+      display: block;
+      position: static;
+      width: 100%;
+      background-color: white;
+   }
+
+   .middle-left-box {
+      display: block;
+      position: static;
+      background-color: white;
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 640px) {
+
+   .top-right-box {
+      display: block;
+      position: static;
+      width: 100%;
+      background-color: white;
+      height: 50px;
+   }
+
+   .top-left-box {
+      display: block;
+      position: static;
+      background-color: #4aaaa5;
+      width: 100%;
+      height: 50px;
+   }
+
+   .top-left-box h1 {
+      position: absolute;
+      color: white;
+      text-align: center;
+      top: 20%;
+   }
+}
